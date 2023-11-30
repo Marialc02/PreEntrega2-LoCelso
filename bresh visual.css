@@ -1,15 +1,24 @@
 body{
     background-color: rgb(255, 255, 255);
     display: grid;
-    place-content: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
     
     
+.principal{
+    text-align: center;
 
+}
 .in1{
-    width: 1350px;
-    height: 500px;
+    max-width: 100%;
+        height: auto;
+    padding: 15px;
+    }
+    @media (min-width: 768px) {
+        .in1 {
+            max-width: 70%;
+            margin: 0 auto;
+        }
 }
 
 .in2{
@@ -26,6 +35,13 @@ body{
     width: 50px;
     height: 50px;
     margin: 15px;
+
+    @media (min-width: 768px) {
+        .im4 {
+            max-width: 40%;
+            margin: 0 auto;
+        }
+    }
 }
 
 .divFlexMarcas{
@@ -40,8 +56,13 @@ body{
 .txt1{
     color:#3F8EEA;
     text-align: center;
-    font-size: 45px;
+    font-size: 32px;
 font-family: 'Roboto Mono', monospace;
+
+@media (max-width: 767px) {
+    font-size: 1.5rem;
+}
+
 }
 
 .txt1B{
@@ -58,7 +79,28 @@ font-family: 'Roboto Mono', monospace;
     color: black;
     font-size: 28px;
     text-align: center;
+    @media (max-width: 767px) {
+        font-size: 1.5rem;
+    }
 }
+
+.txt4{
+    color: rgb(255, 255, 255);
+}
+
+.txt5{
+    color: #3F8EEA;
+    text-align: center;
+    font-size: 24px;
+font-family: 'Roboto Mono', monospace;
+}
+.tickcounter {
+    font-size: 1.2rem;
+    @media (max-width: 767px) {
+        font-size: 1rem;
+    }
+}
+
 h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     
@@ -77,3 +119,4 @@ h3{
     text-align: center;
 
 }
+
