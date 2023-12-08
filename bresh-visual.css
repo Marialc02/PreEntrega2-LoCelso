@@ -44,6 +44,11 @@ body{
     }
 }
 
+.im5{
+    width: 100%;
+    height: auto;
+  }
+
 .divFlexMarcas{
     display: flex;
     flex-direction: row;
@@ -51,6 +56,10 @@ body{
     justify-content: center;
 
 }
+
+.container{
+    padding: 20px;
+  }
 
 
 .txt1{
@@ -120,3 +129,11 @@ h3{
 
 }
 
+.button{
+    height: 40px;
+    width: 120px;
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+    display: block;
+}
