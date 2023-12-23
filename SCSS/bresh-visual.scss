@@ -14,7 +14,7 @@ $principal-text-align: center;
     text-align: $principal-text-align;
 }
 
-$in1-max-width: 100%;
+$in1-max-width: 30%;
 $in1-height: auto;
 $in1-padding: 15px;
 
@@ -181,4 +181,21 @@ $button-display: block;
     padding: $button-padding;
     text-align: $button-text-align;
     margin: $button-margin;
+}
+
+$card-color: #3F8EEA;
+$card-width:3px;
+
+.card-body {
+border-color: $card-color;
+border-width: $card-width;
+border-style: solid;
+}
+
+$card-color: #3F8EEA;
+$card-width:1px;
+.form-control{
+    border-color: $card-color;
+    border-width: $card-width;
+    border-style: solid;
 }

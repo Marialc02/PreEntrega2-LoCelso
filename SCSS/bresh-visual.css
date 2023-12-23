@@ -9,7 +9,7 @@ body {
 }
 
 .in1 {
-  max-width: 100%;
+  max-width: 30%;
   height: auto;
   padding: 15px;
 }
@@ -134,4 +134,17 @@ h3 {
   text-align: center;
   margin: auto;
 }
+
+.card-body {
+  border-color: #3F8EEA;
+  border-width: 3px;
+  border-style: solid;
+}
+
+.form-control {
+  border-color: #3F8EEA;
+  border-width: 1px;
+  border-style: solid;
+}
+
 /*# sourceMappingURL=bresh-visual.css.map */
