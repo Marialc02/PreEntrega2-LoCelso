@@ -127,6 +127,12 @@ h3 {
   text-align: center;
 }
 
+h4 {
+  font-family: "Verdana, Geneva, Tahoma, sans-serif";
+  font-size: 5px;
+  text-align: center;
+}
+
 .button {
   height: 40px;
   width: 120px;
