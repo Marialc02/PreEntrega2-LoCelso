@@ -47,6 +47,10 @@ body {
   height: auto;
 }
 
+.im6 {
+  height: 20px;
+}
+
 .divFlexMarcas {
   display: flex;
   flex-direction: row;
@@ -129,7 +133,7 @@ h3 {
 
 h4 {
   font-family: "Verdana, Geneva, Tahoma, sans-serif";
-  font-size: 5px;
+  font-size: 20px;
   text-align: center;
 }
 
@@ -153,4 +157,18 @@ h4 {
   border-style: solid;
 }
 
+footer {
+  background-color: #ffffff;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+
+}
+
+.footer1 {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+
+}
 /*# sourceMappingURL=bresh-visual.css.map */

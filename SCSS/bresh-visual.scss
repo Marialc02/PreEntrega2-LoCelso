@@ -68,6 +68,17 @@ $im5-width: 100%;
     height: auto;
 }
 
+$im3-height: 20px;
+.im6 {
+    width: $im3-width;
+    height: $im3-height;
+}
+
+
+$im4-width: 50px;
+$im4-height: 50px;
+$im4-margin: 15px;
+
 .divFlexMarcas {
     display: flex;
     flex-direction: row;
@@ -204,4 +215,10 @@ $form-control-width:1px;
     border-color: $card-color;
     border-width: $card-width;
     border-style: solid;
+}
+
+.footer1 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }

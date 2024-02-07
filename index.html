@@ -5,43 +5,80 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BRESH</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="SCSS/bresh-visual.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono=swap" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 
+<header>
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <div class="container-fluid">
+            <div class="navbar-brand">
+                <a href="#"></a>
+                <img src="./media/bresh logo.png" alt="Logo" height="40" class="d-inline-block align-text-top">
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"> 
+                        <a class="nav-link active" aria-current="page" href="../index.html"  target="_top">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/fechas.html"  target="_top">Fechas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/galeria.html"  target="_top">Galería</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/actividades.html"  target="_top">Actividades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/contactanos.html"  target="_top">Contactanos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+</header>
+
 <body>
-    <iframe src="Header/header.html" width="100%" height="100px" frameborder="0"></iframe>
     <main>
         <div class="principal">
-            <img src="media/bresh.png" class="in1">
+            <img src="media/bresh.png" class="in1" alt="Imagen de presentación">
         </div>
         <h1 class="txt1">La fiesta más popular del mundo llega a la Argentina</h1>
+    
         <div class="divFlexMarcas">
-            <img src="media/itaú.png" class="im4">
-            <img src="media/mc-donals.png" class="im4">
-            <img src="media/meli.png" class="im4">
-            <img src="media/Spotify.png" class="im4">
+            <img src="media/itaú.png" class="im4" alt="logo de empresa patrocinadora">
+            <img src="media/mc-donals.png" class="im4" alt="logo de empresa patrocinadora">
+            <img src="media/meli.png" class="im4" alt="logo de empresa patrocinadora">
+            <img src="media/Spotify.png" class="im4" >
         </div>
 
         <h3 class="txt3">FALTAN:</h3>
-        <script>
-            (function(d, s, id) {
-                var js, pjs = d.getElementsByTagName(s)[0];
-                if (d.getElementById(id)) return;
-                js = d.createElement(s);
-                js.id = id;
-                js.src = "//www.tickcounter.com/static/js/loader.js";
-                pjs.parentNode.insertBefore(js, pjs);
-            }(document, "script", "tickcounter-sdk"));
-        </script><a data-type="countdown" data-id="4646658" class="tickcounter" style="display:block; left:0; width:25%; height:0; position:relative; padding-bottom:6%; margin:0 auto;" title="próximo evento" href="//www.tickcounter.com/">próximo evento</a>
+        <script>(function(d, s, id) { 
+            var js, pjs = d.getElementsByTagName(s)[0]; 
+            if (d.getElementById(id)) return; 
+            js = d.createElement(s); 
+            js.id = id; 
+            js.src = "//www.tickcounter.com/static/js/loader.js"; 
+            pjs.parentNode.insertBefore(js, pjs); 
+            }(document, "script", "tickcounter-sdk"))
+        </script><a data-type="countdown" data-id="4880186" class="tickcounter" style="display:block; left:0; width:35%; height:0; position:relative; padding-bottom:9%; margin:0 auto;" title="próximo evento" href="//www.tickcounter.com/">próximo evento</a>
+       
         <h3>Para el próximo evento</h3>
     </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
 
-    <iframe src="footer/footer.html" width="100%" height="100px" frameborder="0"></iframe>
 </body>
 
+<footer>
+    <h4 class="txt2">seguinos en nuestras redes</h4>
+    <img src="media/redes.png" class="im6" alt="redes sociales de BRESH Argentina">
+</footer>
 </html>
